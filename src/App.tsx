@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import { Link} from 'react-router-dom'
-import { useNavigate } from 'react-router-dom';
 // Tipo para produtos
 type ProdutoType = {
   id: number,
@@ -54,25 +53,6 @@ function App() {
 
   return (
     <>
-
-
-      <header className="site-header">
-
-
-        <nav className="navigation">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#produtos">Produtos</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#contato">Contato</a></li>
-            <Link to="/cadastro-produto">Cadastro de Produto</Link>
-          </ul>
-        </nav>
-
-        <div className="header-actions">
-          <button className="login-button">Login</button>
-        </div>
-      </header>
       {/* Listagem de Produtos */}
       <div className="produtos-container">
       <Link to="/cadastro-produto">Cadastro de Produto</Link>

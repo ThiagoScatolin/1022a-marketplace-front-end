@@ -34,6 +34,7 @@ body {
   margin: 0; /* Remove margens do body */
   padding: 0; /* Remove padding do body */
   /* outros estilos... */
+  width: 100vw;
 }
 
 
